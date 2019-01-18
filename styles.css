@@ -1,0 +1,33 @@
+body {
+  font-family: Verdana, sans-serif;
+  background: hsl(138, 40%, 95%);
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.input-area {
+  height: 50px;
+}
+
+.btn {
+  display: inline-block;
+  background: hsl(198, 35%,55%);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 6px;
+}
+
+h1, p {
+  text-align: center;
+  color: hsl(138, 35%, 55%)
+}
+
+.result-area {
+  padding: 5px;
+  border: 1px solid hsl(198, 40%, 95%);
+  border-radius: 5px;
+}
