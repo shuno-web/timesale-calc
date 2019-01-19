@@ -9,7 +9,7 @@
   <div class="container">
     <h1>タイムセール計算機</h1>
     <div class="input-area1">
-      <input id="price" type="text" size="10" maxlength="7" placeholder="金額">
+      <input id="price" type="text" size="15" maxlength="7" placeholder="金額">
       <select id="per1">
         <option value="0.1">10%OFF</option>
         <option value="0.2">20%OFF</option>
@@ -21,9 +21,9 @@
         <option value="0.8">80%OFF</option>
         <option value="0.9">90%OFF</option>
       </select>
-      <div id="calc1" class="btn">計算する</div>
+      <!-- <div id="calc1" class="btn">計算する</div> -->
     </div>
-    <div class="result-area">
+    <div class="result-area1">
       <p id="result1">計算結果はここに表示されます。</p>
     </div>
     <div class="input-area2">
@@ -44,6 +44,7 @@
     <div class="result-area2">
       <p id="result2">計算結果はここに表示されます。</p>
     </div>
+    <div id="reset" class="btn">リセット</div>
   </div>
 
   <script src="timesale.js"></script>
